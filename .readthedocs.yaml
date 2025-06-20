@@ -12,4 +12,4 @@ python:
 
 sphinx:
   builder: html
-  configuration: dummy_conf.py
+  configuration: conf.py
