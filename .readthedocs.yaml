@@ -5,11 +5,12 @@ build:
   tools:
     python: "3.10"
 
+sphinx:
+  builder: html
+  configuration: none
+
 python:
   install:
     - method: pip
       path: .
 
-sphinx:
-  builder: html
-  configuration: conf.py
