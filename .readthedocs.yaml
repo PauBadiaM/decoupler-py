@@ -7,10 +7,9 @@ build:
 
 sphinx:
   builder: html
-  configuration: none
+  configuration: conf.py
 
 python:
   install:
     - method: pip
       path: .
-
