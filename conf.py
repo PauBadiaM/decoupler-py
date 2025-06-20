@@ -1,4 +1,11 @@
+from docutils.parsers.rst import directives
+from docutils.parsers.rst.directives.misc import Raw
+
+def setup(app):
+    app.add_directive("raw", Raw)
+
+
 project = "decoupler-py"
 extensions = []
-master_doc = "index"  # not actually used
-html_extra_path = ["index.html"]
+master_doc = "index"
+
